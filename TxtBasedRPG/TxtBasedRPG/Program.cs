@@ -26,6 +26,8 @@ namespace MazeArrayDemo
         }
         static void Main()
         {
+            Vaardigheden user1;
+
             int[,] Kaart =
                 {
                     {0, 4, 0, 0, 5, 3, 1},
@@ -62,7 +64,7 @@ namespace MazeArrayDemo
                     "Je moet 2 sleutels hebben om door de grote deur voor je te raken.",//5
                     "Een gigantische draak staat voor je! Druk V om te Vechten", //6
                     "Je hebt de grote schat gevonden! Je wint!", //7
-                    "Je vindt hier een hidden Power-up! je krijgt 10 extra krachtpunten!" //8
+                    "Je vindt hier een hidden Power-up!" //8
 
                 };
 
